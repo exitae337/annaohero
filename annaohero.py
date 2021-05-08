@@ -43,8 +43,7 @@ def compress(path):
     s = Nishia(path, [])
     m = s.no_files_in_directory()
     if m == 1:
-        print("No files in such directory")
-        sys.exit()
+        raise Exception("No files in such directory")
 
     print(s)
 
