@@ -10,3 +10,5 @@ After you have entered this command, the "sop.nosh" file will be created. This i
 To separate the files you should use the following command:
 
 uncompress(r'(way to folder with file "sop.nosh")') example: uncompress(r'C:\Users\username\Desktop\folder') The folder must contain the file that you created with the compress() command!
+
+Directory called "files" contains files for example!!
