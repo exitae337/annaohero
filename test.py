@@ -1,5 +1,5 @@
-from maincode import compress
-from maincode import uncompress
+from annaohero import compress
+
 import os
 import unittest
 
@@ -21,3 +21,6 @@ class TestMainCode(unittest.TestCase):
         self.assertEqual(sh, True)
         os.chdir('files')
         os.remove('sop.nosh')
+
+if __name__ == '__main__':
+    unittest.main()
