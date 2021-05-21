@@ -1,6 +1,5 @@
 import os
 import sys
-import shutil
 
 class Nishia:
     def __init__(self, path, files):
