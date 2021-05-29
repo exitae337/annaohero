@@ -1,5 +1,4 @@
 import os
-import sys
 
 class Nishia:
     def __init__(self, path, files):
